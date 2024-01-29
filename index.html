@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+    <html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Házi feladat</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        
+        <p id="top">Itt választhatsz színsémát:</p>
+        <input type="radio" name="radio" title="Classic Theme" class="chooserButton classic" checked/>
+        <span class="chooserButton classic"></span>
+        <input type="radio" name="radio" title="Barbie Theme" class="chooserButton barbie" />
+        <span class="chooserButton barbie"></span>
+        <input type="radio" name="radio" title="Ocean Theme" class="chooserButton ocean" />
+        <span class="chooserButton ocean"></span>
+
+        <header>
+            <h1>Kapp Pál mestercukrász</h1>
+            <div class="searchWrapper">
+                <form action="#">
+                    <label for="searchInput">Keresés a cikkekben: </label>
+                    <input type="search" id="searchInput">
+                </form>
+            </div>
+        </header>
+
+        <nav>
+            <a class="mainNavButton" href="#article1" title="Első cikk">Feketeerdő torta</a>
+            <a class="mainNavButton" href="#article2" title="Második cikk">Csupacsoki torta</a>
+            <a class="mainNavButton" href="#article3" title="Harmadik cikk">Áfonyás sajttorta</a>
+            <a class="mainNavButton" href="#connect" title="Elérhetőségeink">Kapcsolat</a>
+            <a class="mainNavButton" href="#theForm" title="Űrlap">Cikk küldése</a>
+            <div class="floatingMenu">
+                <a class="floatingMenuButton facebook" href="#" title="Facebook" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+                <a class="floatingMenuButton twitter" href="#" title="Twitter" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+                <a class="floatingMenuButton printerest" href="#" title="Pinterest" target="_blank"><ion-icon name="logo-pinterest"></ion-icon></a>
+                <a class="floatingMenuButton instagram" href="#" title="Instagram" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </nav>
+        
+        <div class="theArticle" id="article1">
+            <section>
+            <h2>Feketeerdő torta</h2>
+            <p id="readTimeText1">
+            </p>
+                <div class="cookiePicture">
+                    <img src="./images/feketeerdo_torta.jpg" alt="Ínycsiklandó Feketeerdő torta">
+                </div>
+                <p>Annyi tudunk, hogy a sütemény talán 1930 tavaszán a Café Walz-ban született, Tübingenben. Állítólag egy Erwin Hildenbrand nevű úr találta fel, aki korábban éveken át dolgozott a Fekete-erdőben, s valószínűleg az ottani benyomások nyomán készítette s keresztelte el a süteményt.</p>
+            </section>
+            <section>
+                <h3>Hozzávalók</h3>
+                <h4>Piskótához</h4>
+                <ul>
+                    <li>6 db tojás</li>
+                    <li>3 ek víz</li>
+                    <li>8 ek cukor</li>
+                    <li>1 csomag vaníliás cukor</li>
+                    <li>5 evőkanál finomliszt</li>
+                    <li>2 evőkanál étkezési keményítő</li>
+                    <li>2 ek cukrozatlan kakaópor</li>
+                    <li>0.5 csomag sütőpor</li>
+                </ul>
+                <h4>Meggyes krémhez</h4>
+                <ul>
+                    <li>35 dkg meggybefőtt (magozott)</li>
+                    <li>1 csomag vaníliás pudingpor</li>
+                    <li>1 ek cukor</li>
+                    <li>1 csipet fahéj</li>
+                </ul>
+                <h4>A tetejére</h4>
+                <ul>
+                    <li>3.5 dl habtejszín</li>
+                    <li>1 ek csokoládéforgács</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Elkészítés</h3>
+                <ol>
+                    <li>Piskótát sütünk: 6tojássárgáját felverünk (kézi robotgéppel) 3 ek vízzel és 4 ek cukorral. 6 tojásfehérjét felverünk (állványos robotgéppel) 1 csipet sóval és 4 ek cukorral + 1 vaníliás cukorral. Egy tálba teszünk fél cs sütőport, 5 ek lisztet, 2 ek étkezési keményítőt, 2 ek keserű kakaóport; összekeverjük.</li>
+                    <li>A lisztes alapanyagot hozzászitáljuk a tojássárgájás krémhez, nagyjából elkeverjük. Hozzáadjuk a felvert tojásfehérje 1/4 részét, és elkeverjük kézi robotgéppel. A többi tojáshabot már egy műanyag fakanállal, kézzel keverjük óvatosan hozzá.</li>
+                    <li>Kerek tortaforma aljába vágjunk sütőpapírt, és öntsük bele a piskótamasszát. 220 fokos, előmelegített sütőbe tegyük, és 5 perc múlva vegyük le a hőfokot 180 fokra. Tűpróbáig süssük</li>
+                    <li>A meggyet lecsepegtetjük szűrőn, felfogjuk a levét, és főzünk belőle pudingot. (Tej helyett befőttlevet használunk, de ugyanúgy készül, mint a mezei puding.) Összekeverjük a meggyel és a fahéjjal, hűlni hagyjuk.</li>
+                    <li>A kihűlt piskótát 3 felé vágjuk, ésbetöltjük a tölteléket, méghozzá úgy, hogy az alsó lapra belülről kifelé haladva körökben tesszük a meggytölteléket, és a tejszínt, a 2. lapra pedig pont fordítva, a tejszínnel kezdek, és kifelé haladva meggytölteléket teszek, szintén kör alakban (mint a céltábla). Ezt azért így, hogy szeletelésnél sakktábla mintázatot adjon ki. A meggyeset kiskanállal rakosgassuk rá, a tejszínt meg habzsákból is nyomhatjuk. (Kb. 1,5 dl felvert tejszín ment bele. Plusz még kellett a díszítéséhez is kb. 2 dl-nyi.)</li>
+                    <li>A szélét bevonjuk csokidarával ("egérkakival") :D, mégpedig oly módon, hogy fogjuk bal tenyerünkkel a tortát az aljánál, egy tálca fölé tartjuk alacsonyan, és egy másik tálból pedig finoman dobáljuk rá a jobb kezünkkel a csokidarát. Ami lepotyogott, azt felfogta a tálca. Összegyűjtjük, és ismét szórjuk az oldalára, közben forgassuk, amíg körbe nem ér.</li>
+                    <li>A tetejét osszuk 12 részre, habrózsákat nyomjunk rá. 12 szem meggyet vegyünk ki a befőttesüvegből, jól csepegtessük le, több szalvéta közé tegyük, forgassuk, hogy felszívja a nedvességet róla (különben beszínezné maga alatt a tejszínhabot, és az nem mutatna valami jól).</li>
+                    <li>A tetejére:sűrűre olvasszunk csokit (kevéske olajat tegyünk csak hozzá), majd egy fémtepsibe simítsuk 1-2 mm vastagon, és dugjuk be a hűtőbe dermedni. Miután megkeményedett, egy spaklit toljunk végig rajta, és ilyen érdekes alakú csokidarabok születnek! :)</li>
+                </ol>
+            </section>
+            <div class="jumpUp">
+                <a href="#top" title="ugrás" class="jumpToTheTop"><ion-icon name="arrow-up-circle"></ion-icon> Ugrás a lap tetejére</a>
+            </div>
+        </div>
+
+        <div class="theArticle" id="article2">
+            <section>
+            <h2>Csupa csokitorta</h2>
+            <p id="readTimeText2">
+            </p>
+                <div class="cookiePicture">
+                    <img src="./images/csupa_csokitrorta.jpg" alt="Csudafinom csupa csokitorta">
+                </div>
+                <p>A csokoládétorta egy általános desszerttorta, melyet különböző alkalmakkor, születésnapi bulin, esküvőn szokás felszolgálni, de a legtöbb cukrászdában is fogyasztható. Legfontosabb összetevője a csokoládé. Számos eltérő típusú csokoládétorta létezik, ami a hozzávalók változtatásától és a csokoládé ízétől függ. Nem ritka a rum és méz felhasználásával készült csokoládétorta.</p>
+            </section>
+            <section>
+                <h3>Hozzávalók</h3>
+                <h4>Piskótához</h4>
+                <ul>
+                    <li>6 db tojás</li>
+                    <li>14 dkg cukor</li>
+                    <li>25 ml víz</li>
+                    <li>1 csipet só</li>
+                    <li>12 dkg finomliszt</li>
+                    <li>2 dkg cukrozatlan kakaópor</li>
+                    <li>1 csomag sütőpor</li>
+                </ul>
+                <h4>Krémhez</h4>
+                <ul>
+                    <li>6 dl habtejszín</li>
+                    <li>20 dkg étcsokoládé</li>
+                    <li>3 dkg porcukor</li>
+                </ul>
+                <h4>Díszítéshez</h4>
+                <ul>
+                    <li>10 dkg fehér csokoládé</li>
+                    <li>10 dkg tejcsokoládé</li>
+                    <li>10 dkg étcsokoládé</li>
+                </ul>
+            </section>
+            <section>
+            <h3>Elkészítés</h3>
+                <ol>
+                    <li>A 22 cm-es tortaforma aljába sütőpapírt teszünk, az oldalát hagyjuk szabadon, így kevésbé esik majd össze a piskóta.</li>
+                    <li>A tojássárgáját felverjük a cukor felével és a vízzel.</li>
+                    <li>A tojásfehérjét egy csipet sóval félkeményre verjük, majd hozzáadjuk a maradék cukrot, és addig keverjük tovább a robotgéppel, még kemény hab nem lesz.</li>
+                    <li>A lisztet, a kakaót és a sütőport beleszitáljuk a sárgájába, hozzáadunk egy kanál fehérjét, és azzal együtt kikeverjük.</li>
+                    <li>Fokozatosan adjuk hozzá a fehérjehabot, az első pár adag esetén nem baj, ha törik, csomómentesre keverjük.</li>
+                    <li>Előmelegített sütőben alsó+felső beállításon, légkeverés nélkül 180 fokon 30 percig, majd 170 fokon még 5 percig sütjük.</li>
+                    <li>A tejszínt és a csokit egy lábosban felolvasztjuk, mielőtt felforrna, levesszük a tűzről, és félretesszük hűlni.</li>
+                    <li>Miután kihűlt, beleszitáljuk a porcukrot, és habosra verjük a robotgéppel.</li>
+                    <li>A három részre vágott piskótát megtöltjük krémmel, megkenjük a tetejét és az oldalát is, de a krém körülbelül negyedét meghagyjuk a formázáshoz. A tortát és a krémet is hűtőbe tesszük.</li>
+                    <li>A háromféle csokival ugyanaz a teendő, külön-külön. Felolvasztjuk a csokoládét mikróban vagy vízgőz felett.</li>
+                    <li>Kiöntjük egy sütőpapírra, majd egy késsel vékonyra kenjük téglalap alakban. A téglalap rövidebbik oldala körülbelül a torta magasságának 1,5-2-szerese legyen. Ezután egy másik sütőpapírral lefedjük az olvadt csokit, és feltekerjük, nem kell, hogy szoros legyen, a lényeg, hogy ne folyjon ki, miközben tekerjük. A három gurigát is hűtőbe tesszük.</li>
+                    <li>Legalább 4 órát pihentetjük a hűtőben, ha még nem keményedett meg a krém és a csoki, akkor tovább. A maradék, most már kemény krémmel tortaformájúra formázzuk a tortát.</li>
+                    <li>A csokigurigákat bátran kitekerjük, az a lényeg, hogy 1-2-3 cm-es oszlopokra törjön. A szép csokidarabokkal körberakjuk a tortát, a maradék összetört csokidarabokkal ízlés szerint a torta közepét díszítjük.</li>
+                    <li>Tálalásig visszatesszük a hűtőbe, nyáron sajnos gyorsan olvad.</li>
+                </ol>
+            </section>
+            <div class="jumpUp">
+                <a href="#top" title="ugrás" class="jumpToTheTop"><ion-icon name="arrow-up-circle"></ion-icon> Ugrás a lap tetejére</a>
+            </div>    
+
+        </div>
+        
+        <div class="theArticle" id="article3">
+            <section>
+            <h2>Áfonyás sajttorta</h2>
+            <p id="readTimeText3">
+            </p>
+                <div class="cookiePicture">
+                    <img src="./images/afonyas_sajttorta.jpg" alt="Gusztusos áfonyás sajttorta áfonyával a tetjén">
+                </div>
+                <p>A sajttortát sokan egynek gondolják a New York Cheesecake-kel, és ebből azt a következtetést vonják le, hogy a legelső sajttorta is New York-i illetőségű volt. Nos, ők tévednek. Hihetetlennek tűnik, de igaz, hogy ezt a trendi desszertet már az ókori görögök is ismerték.</p>
+            </section>
+            <section>
+                <h3>Hozzávalók</h3>
+                <h4>Az alaphoz</h4>
+                <ul>
+                    <li>30 dkg zabkeksz (finomra őrölve)</li>
+                    <li>14 dkg vaj (olvasztott)</li>
+                </ul>
+                <h4>Töltelékhez</h4>
+                <ul>
+                    <li>15 dkg áfonya</li>
+                    <li>3 evőkanál víz</li>
+                    <li>25 dkg barna cukor</li>
+                    <li>1 csapott ek étkezési keményítő</li>
+                    <li>50 dkg mascarpone</li>
+                    <li>200 ml tejföl</li>
+                    <li>3 db tojás</li>
+                    <li>4 evőkanál finomliszt</li>
+                    <li>2 teáskanál vanília kivonat</li>
+                </ul>
+            </section>
+            <section>
+                <h3>Elkészítés</h3>
+                <ol>
+                    <li>A sütőt előmelegítjük (villany 200 fok, légkeverős 180 fok).</li>
+                    <li>Egy 20x30 cm-es tepsit béleljünk ki sütőpapírral.</li>
+                    <li>A kekszet az olvasztott vajjal keverjük össze, és egyenletesen terítsük a tepsibe. Nyomjuk le jó erősen egy kanál hátával.</li>
+                    <li>Süssük 10 percig, aztán hagyjuk kihűlni.</li>
+                    <li>Az áfonyát 2 evőkanál vízzel és 1,5 dkg cukorral tegyük fel főni, lassú tűzön. Időnként keverjünk bele. Forraljuk 2 percig.</li>
+                    <li>1 evőkanál vízbe keverjük el az étkezési keményítőt, és adjuk az áfonyához. Amint visszaforr, vegyük le, és hűtsük ki.</li>
+                    <li>A mascarponéhez keverjük hozzá a többi hozzávalót.</li>
+                    <li>A krémsajtos keverék felét öntsük a kekszalapra, és kanállal pöttyözzük rá az áfonyaszósz felét. Mehet rá a krém másik fele. Csorgassuk rá a maradék áfonyaszószt, és egy kanál végével húzzunk bele örvényeket.</li>
+                    <li>Süssük a tortát 10 percig (180 fokon villany), majd vegyük le a hőfokot (110 fok, villany), és süssük 30 percig. Kapcsoljuk le a sütőt, de a tortát hagyjuk a sütőben 1 órán át, aztán nyissuk ki a sütő ajtaját, de a torta maradjon benne még 1 órát. Végül szobahőmérsékleten hagyjuk teljesen kihűlni.</li>
+                    <li>Tegyük hűtőbe 3 órára.</li>
+                </ol>
+            </section>
+            <div class="jumpUp">
+                <a href="#top" title="ugrás" class="jumpToTheTop"><ion-icon name="arrow-up-circle"></ion-icon> Ugrás a lap tetejére</a>
+            </div>
+        </div>
+
+        <div class="formBox">
+            <div class="formPaper" id="theForm">
+                <form action="#" onsubmit="return confirm('Minden megadott adat helyes? Küldhetjük az e-mailt?')">
+                    <h2>Cikk küldése ismerősnek</h2>
+                    <div class="inputBox">
+                        <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+                        <label for="nev"></label>
+                        <input type="text" name="nev" id="nev" placeholder="Teljes neved *" required>
+                    </div>
+                    <div class="inputBox">
+                        <span class="icon"><ion-icon name="call"></ion-icon></span>
+                        <label for="phoneNumber"></label>
+                        <input type="tel" name="telszam" id="phoneNumber" placeholder="Telefonszámod" maxlength="18">
+                    </div>
+                    <div class="inputBox">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <label for="email"></label>
+                        <input type="email" name="email" id="email" placeholder="E-mail címed *" required>
+                    </div>
+                    <div class="birthDate">
+                        <span class="icon"></span>
+                        <label for="kor">Születési dátumod: </label>
+                        <input type="date" name="szulIdo" id="kor">
+                    </div>
+                    <div class="inputBox">
+                        <textarea name="mesage" placeholder="Ide írd az üzeneted!"></textarea>
+                    </div>
+                    <div class="choose">
+                        <label for="favorit">Kedvenc recepted: </label>
+                        <select class="selectList" id="favorit" name="kedvencCikk">
+                            <option value="">-- Kérlek válassz a listából! --</option>
+                            <option value="Feketeerdő torta">Feketeerdő torta</option>
+                            <option value="Csupacsoki torta">Csupacsoki torta</option>
+                            <option value="Áfonyás sajttorta">Áfonyás sajttorta</option>
+                        </select>
+                    </div>
+                    <div class="checkAllert">
+                        <label><input type="checkbox" name="hirlevel"> Kérek értesítést az új receptekről.</label>
+                    </div>
+                    <p> A *-al jelölt mezők kitöltése kötelező!</p>
+                    <button type="submit" class="sendButton">Elküld</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="w-100 p-3 d-flex justify-content-center bg-transparent">
+            <div class="w-75 bg-success p-2 d-flex justify-content-center rounded shadow" style="--bs-bg-opacity: .25;">
+                <form action="#" onsubmit="return confirm('Minden megadott adat helyes? Küldhetjük az e-mailt?')">
+                    <h2>Cikk küldése ismerősnek</h2>
+                    <p class="text-center">(Bootstrap változat)</p>
+                    <div class="input-group mb-3 shadow-sm">
+                        <span class="input-group-text" id="basic-addon0"><ion-icon name="person-circle-outline"></ion-icon></span>
+                        <label for="nev"></label>
+                        <input type="text" class="form-control" name="nevBs" id="nevBs" placeholder="Teljes neved *" required>
+                    </div>
+                    <div class="input-group mb-3 shadow-sm">
+                        <span class="input-group-text" id="basic-addon1"><ion-icon name="call"></ion-icon></span>
+                        <label for="phoneNumber"></label>
+                        <input type="tel" class="form-control" name="telszamBs" id="phoneNumberBs" placeholder="Telefonszámod" maxlength="18">
+                    </div>
+                    <div class="input-group mb-3 shadow-sm">
+                        <span class="input-group-text" id="basic-addon2"><ion-icon name="mail"></ion-icon></span>
+                        <label for="email"></label>
+                        <input type="email" class="form-control" name="emailBs" id="emailBs" placeholder="E-mail címed *" required>
+                    </div>
+                    <div class="input-group mb-3 shadow-sm">
+                        <span class="input-group-text" id="basic-addon3">Születési dátumod: </span>
+                        <input type="date" class="form-control" name="szulIdoBs" id="korBs">
+                    </div>
+                    <div class="input-group mb-3 shadow-sm">
+                        <span class="input-group-text">Üzenet:</span>
+                        <textarea name="mesageBs" class="form-control" placeholder="Ide írd az üzeneted!"></textarea>
+                    </div>
+                    <div class="input-group mb-3 shadow-sm">
+                        <label class="input-group-text" for="favorit">Kedvenc recepted: </label>
+                        <select class="form-select" id="favoritBs" name="kedvencCikkBs">
+                            <option value="">-- Kérlek válassz a listából! --</option>
+                            <option value="Feketeerdő torta">Feketeerdő torta</option>
+                            <option value="Csupacsoki torta">Csupacsoki torta</option>
+                            <option value="Áfonyás sajttorta">Áfonyás sajttorta</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" name="hirlevelBs">Kérek értesítést az új receptekről.
+                    </div>
+                    <p>A *-al jelölt mezők kitöltése kötelező!</p>
+                    <div class="d-grid gap-2">
+                    <button type="submit" class="btn btn-primary shadow">Elküld</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <footer>
+            <div class="jumpUp">
+                <a href="#top" title="ugrás" class="jumpToTheTop"><ion-icon name="arrow-up-circle"></ion-icon> Ugrás a lap tetejére</a>
+            </div>
+            <h4>Elérhetőségeink</h4>
+            <address id="connect" class="connect">
+                <p><span class="mainName">Kapp Pál <sup>&reg;</sup></span></p>
+                <p><span class="icon"><ion-icon name="call" size="small"></ion-icon> </span> Telefon: +36 30/123 456<br></p>
+                <p><span class="icon"><ion-icon name="at-circle" size="small"></ion-icon> </span> E-mail: asd@dsa.hu<br></p>
+                <p><span class="icon"><ion-icon name="mail" size="small"></ion-icon> </span> Postázási cím: 7630 Pécs, Basamalom út 33</p>
+            </address>
+        </footer>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">
+        </script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+
+        <script>
+
+            //Hány perc alatt lehet elolvasni a cikket:
+            
+            const readSpeed = 238 // Az internet szerint ez az átlagos olvasási sebesség szó/percben
+            for (let index = 1; index < 4; index++) {
+                let articleId = "#article" + index;
+                let articleText = document.querySelector(articleId);
+                let articleTextList = articleText.innerText.trim().split(new RegExp("\\s+"));
+                let wordNumber = articleTextList.length;
+                let readTime = wordNumber / readSpeed;
+                let anchor = "readTimeText" + index;
+                document.getElementById(anchor).innerHTML = "Ezt a cikket kb. " + readTime.toPrecision(3) + " perc alatt lehet elolvasni!"
+            }
+
+            //Live kereső
+
+           //Neten találtam, még tanulmányozom, majdnem jól működik, kis- és nagybetűre nem érzékeny, de pl backspace-re undefined-et ír mindenre                 
+           const input = document.getElementById("searchInput")
+            input.addEventListener("keyup", () =>{
+                const filter = input.value.toLowerCase();
+                const paragraphs = document.querySelectorAll("li,p");
+                if (filter ==='') {
+                    paragraphs.forEach(p => {
+                        p.innerHTML = p.TextContent;
+                    });
+                    return;
+                }
+                paragraphs.forEach(p => {
+                let txtValue = p.textContent;
+                    if (txtValue.toLowerCase().indexOf(filter) > -1){
+                        txtValue = txtValue.replace(new RegExp(filter, "gi"), '<span class="mark">$&</span>');
+                        p.innerHTML = txtValue;
+                    }
+                    else {
+                        p.innerHTML = txtValue;
+                    }
+                });
+            });
+
+            //API hívás, random usernek az adatait kiírni
+
+            fetch('https://jsonplaceholder.typicode.com/users')
+            .then((response) => response.json())
+            .then((json) => {
+                let randomUser = json[Math.floor(Math.random() * json.length)]; //Véletlenszerűen választ a JSON-ből
+                let randomUserData  = document.createElement('div'); //Új div létrehozása
+                randomUserData.innerHTML =  //Div feltöltése a véletlenszerűen kiválasztott user adataival
+                    `<p style="text-decoration: underline">Véletlenszerűen kiválasztott user adatai:<p>
+                    <p class="connect">Név: ${randomUser.name}</p>
+                    <p class="connect">E-mail: <a href="mailto:${randomUser.email}">${randomUser.email}</a></p>
+                    <p class="connect">Telefonszám: ${randomUser.phone}</p>
+                    <p class="connect">Cégnév: ${randomUser.company.name}</p>`;
+                let randomConnect = document.querySelector('footer')    //Ebbe fogja betölteni
+                randomConnect.appendChild(randomUserData);  //A footer végére beilleszti
+            })
+
+        </script>
+
+    </body>
+</html>
