@@ -343,16 +343,20 @@ a{
 .inputBox{
     position: relative;
     margin: 30px 0;
+    display: flex;
+    justify-content: flex-end;
     
 }
 .inputBox label{
-    position: absolute;
-    top: 50%;
+    position: relative;
     left: 5px;
+    padding: 14px 10px 14px 0;
     font-size: 1em;
+    text-align: right;
+    width: 20%;
 }
 .inputBox input{
-    width: 100%;
+    width: 80%;
     height: 50px;
     background:  rgba(255,255,255,0.4);
     border: none;
@@ -368,6 +372,13 @@ a{
     color: #fff;
     font-size: 1.2em;
     line-height: 57px;
+}
+.birthDate{
+    display: flex;
+    justify-content: flex-end;
+}
+.birthDate label{
+    padding: 14px 10px 14px 0;
 }
 .birthDate input{
     border: none;
@@ -464,10 +475,6 @@ footer{
 }
 footer .mainName{
     font-size: 18px;
-}
-footer h4{
-    font-size: 17px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 footer p{
     margin: 12px;
