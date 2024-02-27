@@ -228,6 +228,9 @@ nav{
 .floatingMenuButton:hover{
     box-shadow: 1px 1px 20px #000, inset 0 0 10px #fff;
 }
+.hidenLinkText{
+    display: none;
+}
 .theArticle{
     display: flex;
     flex-direction: column;
